@@ -1,0 +1,51 @@
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* .add-button {
+   
+    position: absolute;
+    right: 620px;
+  } */
+  
+  .card-content {
+    margin-bottom: 10px;
+  }
+  .outer{
+  right:90px
+  }
+  .card {
+    position: relative;
+  }
+  
+  .card {
+    position: relative;
+  }
+  
+  .p-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .add-button {
+    position: absolute;
+    top: 16px;
+    right: 640px;
+   
+    z-index: 1;
+  }
+  
+  .card-content {
+    padding-top: 40px; /* Adjust this value to create space for the top elements */
+  }
+  
+  .card-footer {
+    position: relative;
+    z-index: 1;
+  }
+  
