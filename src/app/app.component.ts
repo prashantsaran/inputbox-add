@@ -8,6 +8,7 @@ import { FirstComponent } from './first/first.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+  
 export class AppComponent  {
   @ViewChildren(FirstComponent) childComponents!: QueryList<any>;
 detailsService:DetailsServiceService=inject(DetailsServiceService);
